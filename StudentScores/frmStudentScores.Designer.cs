@@ -1,6 +1,6 @@
 ﻿namespace StudentScores
 {
-	partial class FormStudentScores
+	partial class frmStudentScores
 	{
 		/// <summary>
 		/// Required designer variable.

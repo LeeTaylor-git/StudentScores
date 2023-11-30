@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAddUpdateScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUpdateScore.Designer.cs">
+      <DependentUpon>frmAddUpdateScore.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmStudentScores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAddUpdateScore.resx">
+      <DependentUpon>frmAddUpdateScore.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmStudentScores.resx">
       <DependentUpon>frmStudentScores.cs</DependentUpon>
     </EmbeddedResource>

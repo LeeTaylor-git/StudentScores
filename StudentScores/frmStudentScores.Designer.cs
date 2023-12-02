@@ -71,6 +71,7 @@
 			this.btnAddNew.TabIndex = 2;
 			this.btnAddNew.Text = "&Add New";
 			this.btnAddNew.UseVisualStyleBackColor = true;
+			this.btnAddNew.Click += new System.EventHandler(this.btnAddNew_Click);
 			// 
 			// btnUpdate
 			// 
@@ -81,6 +82,7 @@
 			this.btnUpdate.TabIndex = 3;
 			this.btnUpdate.Text = "&Update";
 			this.btnUpdate.UseVisualStyleBackColor = true;
+			this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
 			// 
 			// btnDelete
 			// 
@@ -91,6 +93,7 @@
 			this.btnDelete.TabIndex = 4;
 			this.btnDelete.Text = "&Delete";
 			this.btnDelete.UseVisualStyleBackColor = true;
+			this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
 			// 
 			// btnExit
 			// 
@@ -102,6 +105,7 @@
 			this.btnExit.TabIndex = 5;
 			this.btnExit.Text = "E&xit";
 			this.btnExit.UseVisualStyleBackColor = true;
+			this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
 			// 
 			// label2
 			// 

@@ -108,6 +108,7 @@
 			this.btbAdd.TabIndex = 6;
 			this.btbAdd.Text = "&Add Score";
 			this.btbAdd.UseVisualStyleBackColor = true;
+			this.btbAdd.Click += new System.EventHandler(this.btnAdd_Click);
 			// 
 			// btnClear
 			// 
@@ -118,6 +119,7 @@
 			this.btnClear.TabIndex = 7;
 			this.btnClear.Text = "Clear &Scores";
 			this.btnClear.UseVisualStyleBackColor = true;
+			this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
 			// 
 			// btnCancel
 			// 
@@ -129,6 +131,7 @@
 			this.btnCancel.TabIndex = 8;
 			this.btnCancel.Text = "&Cancel";
 			this.btnCancel.UseVisualStyleBackColor = true;
+			this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
 			// 
 			// btnOK
 			// 
@@ -140,6 +143,7 @@
 			this.btnOK.TabIndex = 9;
 			this.btnOK.Text = "&OK";
 			this.btnOK.UseVisualStyleBackColor = true;
+			this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
 			// 
 			// frmAddNewStudent
 			// 
@@ -163,7 +167,6 @@
 			this.Name = "frmAddNewStudent";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Add New Student";
-			this.Load += new System.EventHandler(this.frmAddNewStudent_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

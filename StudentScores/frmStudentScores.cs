@@ -23,6 +23,7 @@ namespace StudentScores
 
 		private void frmStudentScores_Load(object sender, EventArgs e)
 		{
+			studentScores.Add("Bill Chipman|92|95|85");
 			studentScores.Add("Thomas Anderson|100|100|99");
 			studentScores.Add("Jack Reacher|100|89|92");
 			studentScores.Add("Peter Parker|60|51|91");
@@ -110,6 +111,7 @@ namespace StudentScores
 			}
 		}
 
+
 		private void btnUpdate_Click(object sender, EventArgs e)
 		{
 			if (studentScores.Count > 0)
@@ -130,6 +132,5 @@ namespace StudentScores
 				}
 			}
 		}
-
 	}
 }

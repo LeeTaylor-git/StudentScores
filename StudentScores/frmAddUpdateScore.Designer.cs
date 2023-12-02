@@ -55,6 +55,7 @@
 			// 
 			// btnCancel
 			// 
+			this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
 			this.btnCancel.Location = new System.Drawing.Point(124, 62);
 			this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.btnCancel.Name = "btnCancel";
@@ -89,6 +90,7 @@
 			this.Name = "frmAddUpdateScore";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Add Score";
+			this.Load += new System.EventHandler(this.frmAddUpdateScore_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

@@ -1,4 +1,5 @@
 ﻿//Taylor Lee
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -130,7 +131,5 @@ namespace StudentScores
 			}
 			return errorMsg;
 		}
-
-
 	}
 }

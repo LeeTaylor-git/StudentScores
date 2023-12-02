@@ -94,6 +94,7 @@
 			// 
 			// btnExit
 			// 
+			this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
 			this.btnExit.Location = new System.Drawing.Point(259, 173);
 			this.btnExit.Margin = new System.Windows.Forms.Padding(2);
 			this.btnExit.Name = "btnExit";
@@ -165,7 +166,7 @@
 			this.label6.Text = "Average:";
 			this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
 			// 
-			// FormStudentScores
+			// frmStudentScores
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -185,9 +186,10 @@
 			this.Controls.Add(this.label1);
 			this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-			this.Name = "FormStudentScores";
+			this.Name = "frmStudentScores";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Student Scores";
+			this.Load += new System.EventHandler(this.frmStudentScores_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
